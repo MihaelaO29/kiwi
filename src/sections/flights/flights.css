@@ -1,0 +1,103 @@
+.flights_case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flights_details {
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid rgb(140, 140, 140);
+}
+
+
+.type_class{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(230 230 230);
+    padding: 0px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+
+
+.search_flight{
+    width: 200px;
+    display: flex;
+    align-items: start;
+}
+
+.search_flight_details{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.search_flight_img{
+    height: 50px;
+    width: 35px;
+    border: 1px solid  rgb(151, 148, 148);
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230 230 230);
+}
+
+.text_description{
+    color: rgb(182, 182, 182);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text_title{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.search_case{
+    height: 115px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_flight_btn{
+    background-color: rgb(20, 71, 181);
+    height: 35px;
+    width: 130px;
+    color: white;
+    border-radius: 30px;
+    border: 0;
+}
+
+.business_class_option{
+    height: 35px;
+    width: 140px;
+    border: 1px solid grey;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(20, 71, 181);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.economy_class_option, .first_class_option{
+color:grey;
+font-size: 12px;
+font-weight: 500;
+}
