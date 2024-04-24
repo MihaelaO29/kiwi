@@ -1,0 +1,119 @@
+.travel_support_case {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel_support {
+    height: 650px;
+    width: 1200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.support_title {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.travel_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.class {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.first_title {
+    letter-spacing: .7rem;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+.second_title {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.last_title,
+.travel_requirement_text {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+}
+
+.number_requirement_01,
+.number_requirement_02,
+.number_requirement_03 {
+    height: 30px;
+    width: 35px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+}
+
+.number_requirement_01 {
+    background-color: rgb(9, 9, 109);
+}
+
+.number_requirement_02 {
+    background-color: rgb(253, 121, 85);
+}
+
+.number_requirement_03 {
+    background-color: rgb(240, 183, 142);
+}
+
+.travel_requirement_title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.travel_support_img {
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+
+.airplane_windows_img,
+.airplane_img,
+.airplane_wing_img {
+    height: 270px;
+    width: 190px;
+    border-radius: 100px;
+}
+
+.airplane_windows_img {
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    z-index: 10;
+}
+
+.airplane_img {
+    position: absolute;
+    left: calc(50% - 95px);
+    top: 0;
+    z-index: 9;
+}
+
+.airplane_wing_img {
+    position: absolute;
+    top: 150px;
+    right: 5%;
+    z-index: 8;
+}
