@@ -1,0 +1,59 @@
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more_benefits {
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minor_benefits {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details_benefits {
+    display: grid;
+    grid-template-columns: 245px 200px;
+    grid-template-rows: 218px 191px;
+}
+
+.details {
+    height: 190px;
+    width: 200px;
+
+}
+
+.baggage_img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_minore_benefits {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.img{
+    height: 450px;
+    width: auto;
+    border-radius: 170px;
+}
+.subtitle{
+    font-weight: 600;
+}
+
+.text{
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+}

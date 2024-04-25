@@ -3,6 +3,8 @@ import './App.css';
 import Home from './sections/home/home';
 import Flights from './sections/flights/flights';
 import Support from './sections/support/support';
+import Benefits from './sections/benefits/benefits';
+import MoreBenefits from './sections/more-benefits/more-benefits';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Home />
       <Flights />
       <Support />
+      <Benefits />
+      <MoreBenefits />
     </div>
   );
 }
