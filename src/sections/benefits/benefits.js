@@ -7,7 +7,6 @@ import save from '../../img/save.png';
 
 function Benefits() {
     return (
-        <div className='benefit_section'>
             <div className='benefit_case'>
                 <div className='benefit_title'>
                     <p className='title'>Travel to make memories all around the word</p>
@@ -46,8 +45,6 @@ function Benefits() {
                 </div>
             </div>
             </div>
-   </div>
-
        
     );
 }

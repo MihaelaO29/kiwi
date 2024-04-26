@@ -1,15 +1,10 @@
-.benefits {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .more_benefits {
-    height: 600px;
-    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 50px;
 }
 
 .minor_benefits {

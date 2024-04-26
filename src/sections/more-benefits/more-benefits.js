@@ -4,7 +4,6 @@ import baggage from '../../img/baggage.jpg';
 
 function MoreBenefits() {
     return (
-      <div className='benefits'>
       <div className='more_benefits'>
       <div className='minor_benefits'>
        <p className='title_minore_benefits'>Unaccompanied Minor Lounge</p>
@@ -34,7 +33,6 @@ function MoreBenefits() {
        </div>
      </div>
      <div className='baggage_img'><img className='img'src={baggage} alt='Baggage'/></div>
-     </div>
      </div>
     );
   }

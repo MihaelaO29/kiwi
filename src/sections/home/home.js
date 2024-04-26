@@ -5,15 +5,15 @@ import plane from '../../img/plane.png';
 
 const Home = () => {
     return (
-        <div className="home_section">
+        <div className='home_section'>
             <div className='navigation_bar'>
                 <div className='logo'><img src={logo} alt='plane_logo' /></div>
                 <div className='menu'>
-                    <div>Home</div>
-                    <div>About</div>
-                    <div>Offers</div>
-                    <div>Seats</div>
-                    <div>Destionations</div>
+                    <div className='list_item'><p>Home</p></div>
+                    <div className='list_item'><p>About</p></div>
+                    <div className='list_item'><p>Offers</p></div>
+                    <div className='list_item'><p>Seats</p></div>
+                    <div className='list_item'><p>Destionations</p></div>
                 </div>
                 <div className='contact'><button className='contact_btn'>Contact</button></div>
             </div>

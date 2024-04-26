@@ -5,6 +5,8 @@ import Flights from './sections/flights/flights';
 import Support from './sections/support/support';
 import Benefits from './sections/benefits/benefits';
 import MoreBenefits from './sections/more-benefits/more-benefits';
+import Contact from './sections/contact/contact';
+import Destinations from './sections/destionations/destinations';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Support />
       <Benefits />
       <MoreBenefits />
+      <Destinations />
+      <Contact />
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.top_places{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0;
+}
+
+.top_title{
+    height: 100px;
+    width: 100vw;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_destinations{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations{
+    height: 280px;
+    width: auto;
+    border-radius: 100px;
+    margin: 20px 20px;
+}

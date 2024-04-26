@@ -10,15 +10,13 @@ function Flights() {
     <div>
       <div className='flights_case'>
         <div className='flights_details'>
-
           <div className='type_class'>
             <span className='economy_class_option'>Economy</span>
             <span className='business_class_option'>Business Class</span>
             <span className='first_class_option'>First Class</span>
           </div>
-        
+    
       <div className='search_case'>
-      
           <div className='search_flight'>
             <div className='search_flight_img'><img src={location} alt='Location' /></div>
             <div className='search_flight_details'>
@@ -26,7 +24,6 @@ function Flights() {
               <span className='text_description'>Where do you want to </span>
             </div>
           </div>
-
 
           <div className='search_flight'>
             <div className='search_flight_img'><img src={user} alt='User' /></div>
@@ -43,7 +40,6 @@ function Flights() {
               <span className='text_description'>Add date </span>
             </div>
           </div>
-
 
           <div className='search_flight'>
             <div className='search_flight_img'> <img src={calendar} alt='Calendar' /></div>

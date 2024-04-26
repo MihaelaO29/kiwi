@@ -1,40 +1,43 @@
-.travel_support_case {
+.travel_support {
+    width: 100vw;
+    max-width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-
-}
-
-.travel_support {
-    height: 800px;
-    width: 1200px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 70px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .support_title {
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-
-.travel_details {
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+    
 }
 
-.class {
-    height: 400px;
-    width: 50%;
+.travel_details {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_details {
+    width: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 10px;
 }
+
+.travel_support_img {
+    position: relative
+}
+
 
 .first_title {
     letter-spacing: .7rem;
@@ -84,11 +87,6 @@
     font-weight: 700;
 }
 
-.travel_support_img {
-    height: 400px;
-    width: 50%;
-    position: relative;
-}
 
 .airplane_windows_img,
 .airplane_img,
