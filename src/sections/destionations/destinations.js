@@ -8,7 +8,7 @@ import dubai from '../../img/dubai.jpg';
 
 function Destinations() {
     return (
-            <div className='top_places'>
+            <div  id='destinations' className='top_places'>
                 <div className='top_title'>
                     <span>Top places to travel this month!</span>
                 </div>

@@ -8,9 +8,9 @@ import youtube from '../../img/youtube.png';
 function Contact() {
     return (
      
-                <div className='subscribe'>
+                <div id='contact' className='subscribe'>
                     <div className='subscribe_email'>
-                        <p>Subscribe Newsletters & get Latest News</p>
+                        <p className='subscribe_title'>Subscribe Newsletters & get Latest News</p>
                         <input className='subscribe_input' type='text' name='email' placeholder='Enter your email address'/>
                         <button className='subscribe_btn'>Subscribe Now</button>
                     </div>
@@ -24,31 +24,31 @@ function Contact() {
 
                         <div className='option'>
                             <p className='option_title'>Information</p>
-                            <span>Home</span>
-                            <span>Explore</span>
-                            <span>Travel</span>
-                            <span>Flight Status</span>
-                            <span>Check-In</span>
-                            <span>Manage your booking</span>
+                            <span className='name_option'>Home</span>
+                            <span className='name_option' >Explore</span>
+                            <span className='name_option'>Travel</span>
+                            <span className='name_option'>Flight Status</span>
+                            <span className='name_option'>Check-In</span>
+                            <span className='name_option'>Manage your booking</span>
                         </div>
                         <div className='option'>
                             <p className='option_title'>Quick Guide</p>
-                            <span>FAQ</span>
-                            <span>How to</span>
-                            <span>Features</span>
-                            <span>Baggage</span>
-                            <span>Route Map</span>
-                            <span>Our Communities</span>
+                            <span className='name_option'>FAQ</span>
+                            <span className='name_option'>How to</span>
+                            <span className='name_option'>Features</span>
+                            <span className='name_option'>Baggage</span>
+                            <span className='name_option'>Route Map</span>
+                            <span className='name_option'>Our Communities</span>
                         </div>
 
                         <div className='option'>
                             <p className='option_title'>Queries</p>
-                            <span>Chauffuer</span>
-                            <span>Our partners</span>
-                            <span>Destination</span>
-                            <span>Careers</span>
-                            <span>Transportation</span>
-                            <span>Programme Rules</span>
+                            <span className='name_option'>Chauffuer</span>
+                            <span className='name_option'>Our partners</span>
+                            <span className='name_option'>Destination</span>
+                            <span className='name_option'>Careers</span>
+                            <span className='name_option'>Transportation</span>
+                            <span className='name_option'>Programme Rules</span>
                         </div>
                     </div>
                 </div>

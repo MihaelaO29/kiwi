@@ -7,9 +7,9 @@ import save from '../../img/save.png';
 
 function Benefits() {
     return (
-            <div className='benefit_case'>
+            <div id='benefits' className='benefit_case'>
                 <div className='benefit_title'>
-                    <p className='title'>Travel to make memories all around the word</p>
+                    <p className='title_content'>Travel to make memories all around the word</p>
                     <button className='view_all_button'>View All</button>
                 </div>
 

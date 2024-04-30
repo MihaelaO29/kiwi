@@ -16,6 +16,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 800px) {
+        font-size: 16px;
+     }
 }
 
 .all_destinations{
@@ -23,6 +26,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 800px) {
+       flex-direction: column;
+    }
 }
 
 .destinations{
@@ -30,4 +36,7 @@
     width: auto;
     border-radius: 100px;
     margin: 20px 20px;
+    @media screen and (max-width: 1100px) {
+        height: 200px;
+    }
 }

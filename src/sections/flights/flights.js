@@ -8,7 +8,7 @@ import calendar from '../../img/calendar.png';
 function Flights() {
   return (
     <div>
-      <div className='flights_case'>
+      <div id='flights' className='flights_case'>
         <div className='flights_details'>
           <div className='type_class'>
             <span className='economy_class_option'>Economy</span>
