@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { useState } from 'react';
 import Home from './sections/home/home';
 import Flights from './sections/flights/flights';
 import Support from './sections/support/support';
