@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import './home.css';
 import logo from '../../img/logo.png';
@@ -159,7 +159,7 @@ const Home = () => {
                         {el}{" "}
                     </motion.span>
                 ))}</div>
-                <img className='plane_img' src={plane} />
+                <img className='plane_img' src={plane} alt='plane_image' />
             </div>
         </div>
     )

@@ -17,7 +17,7 @@ function App() {
       <Benefits />
       <MoreBenefits />
       <Destinations />
-      <Contact />
+      <Contact />npm
     </div>
   );
 }
