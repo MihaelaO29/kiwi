@@ -7,8 +7,6 @@ import more from '../../img/more.png'
 import { Link } from "react-scroll";
 
 const Home = () => {
-
-
     const [openMenu, setOpenMenu] = useState(false);
 
     const handleSeeMenu = () => {
@@ -88,7 +86,7 @@ const Home = () => {
                         offset={-70}
                         to='home'
                     >
-                        <p>Home</p>
+                        <p className='menu_link'>Home</p>
                     </Link>
 
                     <Link
@@ -98,7 +96,7 @@ const Home = () => {
                         offset={-80}
                         to='flights'
                     >
-                        <p>Flights</p>
+                        <p className='menu_link'>Flights</p>
                     </Link>
                     <Link
                         className='list_item'
@@ -107,7 +105,7 @@ const Home = () => {
                         offset={-70}
                         to='support'
                     >
-                        <p>Support</p>
+                        <p className='menu_link'>Support</p>
                     </Link>
                     <Link
                         className='list_item'
@@ -116,7 +114,7 @@ const Home = () => {
                         offset={-80}
                         to='benefits'
                     >
-                        <p>Benefits</p>
+                        <p className='menu_link'>Benefits</p>
                     </Link>
                     <Link
                         className='list_item'
@@ -125,7 +123,7 @@ const Home = () => {
                         offset={-80}
                         to='destinations'
                     >
-                        <p>Destionations</p>
+                        <p className='menu_link'>Destionations</p>
                     </Link>
 
                 </div>
@@ -152,8 +150,8 @@ const Home = () => {
                 <div className='title'>{'Hello travelers. Where would you like to go?'.split(" ").map((el, i) => (
                     <motion.span
                         initial={{ opacity: 0 }}
-                        whileInView={{opacity: 1, transition: {delay: i / 10, duration: 3} }}
-                        viewport={{once: false, amount: .5}}
+                        whileInView={{ opacity: 1, transition: { delay: i / 10, duration: 3 } }}
+                        viewport={{ once: false, amount: .5 }}
                         key={i}
                     >
                         {el}{" "}
